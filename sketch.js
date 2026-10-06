@@ -1,5 +1,5 @@
 function preload() {
-  img = loadImage('path/to/your/image.jpg');
+  img = loadImage('https://njoochristopher.github.io/utsp5js.jpg');
 }
 
 function setup() {
@@ -9,7 +9,8 @@ function setup() {
 
 function draw() {
   background(220);
-  image(img, 0, 0, 2000, 2000);
+  img.resize(2000, 2000);
+  image(img, 0, 0);
   
   push();
   translate(1000, 1000);

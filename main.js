@@ -2,6 +2,8 @@ const img = document.createElement('img');
 
 img.src = 'DrivingWhale.jpg';
 
+ctx.drawImage(image, x, y, width, height);
+
 const canvas = document.getElementById('myCanvas');
  
 if (!canvas.getContext) {
